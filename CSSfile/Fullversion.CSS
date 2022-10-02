@@ -1,0 +1,49 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    font-size: 10px=1rem;
+    max-width: 130rem;
+    font-family: sans-serif;
+}
+
+
+.navgation
+,.How_to_work,
+.footer{
+    background-color: black;
+    padding: 2rem 10rem;
+    color: #fff;
+    text-align: center;
+    line-height: 1.8rem;
+
+}
+
+.header_head_text{
+    margin: 3rem 5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    line-height: 1.8rem;
+
+}
+#link_header{
+    font-weight: bold;
+}
+
+
+.section_How{
+    background-color: black;
+    color: #fff;
+    padding-bottom:2rem;
+    border-bottom: 2px solid #fff;
+
+}
+.flex_footer{
+    display: flex;
+    gap: 3rem;
+    align-content: center;
+    justify-content:center ;
+}

@@ -1,0 +1,224 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    font-size: 10px=1rem;
+    margin: 1rem 1rem;
+
+}
+
+/***********************/
+/******** header section******/
+/***********************/
+
+.navgation,
+.How_to_work
+{
+    background-color: aliceblue;
+    border-radius: 1rem;
+    padding: 2rem 4.5rem;
+}
+.nav_flex{
+    display: flex;
+    gap: 3rem;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_list{
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+#link_nav:link,
+.link_nav:visited{
+    text-decoration: none;
+    color: #222;
+    font-weight: bold;
+}
+#link_nav:hover,
+.link_nav:active{
+    color: orangered;
+}
+
+
+.hero{
+    background-image: url("../pictures/arif.png");
+    height: 8rem;
+    position: relative;
+}
+
+.hreo_header{
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    transform: translate(-50%,-50%);
+    /* color: #fff; */
+}
+
+
+
+
+
+.we_miralou{
+    padding: 2rem 10rem;
+    display: flex;
+    color: #fff;
+    gap: 1rem;
+
+}
+.Mrialou{
+    background-color: #222;
+    padding:3rem 6rem;
+}
+ h3{
+    color: red;
+    margin-bottom: 1rem;
+
+}
+.watch_miralou{
+    position: relative;
+}
+.watch_miralou::after{
+    content: "";
+    display: block;
+    /* height: 50%; */
+    width: 100%;
+    padding-bottom: 50%;
+    background-color: black;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-40%,-50%);
+    z-index: -1;
+
+}
+.logo{
+    margin: 3rem 15rem;
+    display: flex;
+    gap: 2rem;
+}
+h4{
+    margin-bottom: 1rem;
+}
+
+
+
+
+.How_to_work{
+    text-align: center;
+    color: red;
+    font-family: sans-serif;
+}
+
+
+
+
+
+
+.featured{
+    /* background-color: #fff; */
+    margin-top: 5rem;
+    padding:5rem 5rem ;
+    position: relative;
+}
+.featured_grid{
+    display: flex;
+    gap: 3rem;
+    align-content: center;
+    justify-content: center;
+
+}
+.featur_item{
+    padding: 2rem 2rem;
+    background-color:aliceblue;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+}
+.featured::after{
+    content: "";
+    width: 100%;
+    padding-bottom:30%;
+    background-color: black;
+    display: block;
+    position: absolute;
+    z-index: -1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,0%);
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#img_featu{
+    border-radius: 50%;
+    text-align: center;
+
+}
+p{
+    font-size: 0.7rem;
+    color: #555;
+}
+.link_feature{
+    padding: 0.5rem 0.5rem;
+    background-color: #777;
+    color: #fff;
+    display: inline-block;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+
+}
+.people_featu{
+    text-align: center;
+
+}
+.text_box_fetu{
+    background-color: seashell;
+    padding:3rem 2rem ;
+    margin: 5rem 18rem;
+}
+
+
+
+
+.footer{
+    background-color: #333;
+}
+
+.footer_flex{
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+    padding: 2rem 7rem;
+}
+
+
+#list_foot{
+    list-style: none;
+    
+}
+
+

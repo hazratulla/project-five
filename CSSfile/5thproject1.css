@@ -1,0 +1,42 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    font-size: 10px=1rem;
+    margin: 1rem 1rem;
+
+}
+
+/***********************/
+/******** header section******/
+/***********************/
+
+.navgation{
+    background-color: aliceblue;
+    border-radius: 1rem;
+    padding: 2rem 4.5rem;
+}
+.nav_flex{
+    display: flex;
+    gap: 3rem;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_list{
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+#link_nav:link,
+.link_nav:visited{
+    text-decoration: none;
+    color: #222;
+    font-weight: bold;
+}
+#link_nav:hover,
+.link_nav:active{
+    color: orangered;
+}

@@ -1,0 +1,234 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    font-size: 10px=1rem;
+    margin: 1rem 1rem;
+
+}
+
+/***********************/
+/******** header section******/
+/***********************/
+
+.navgation{
+    background-color: aliceblue;
+    border-radius: 1rem;
+    padding: 2rem 4.5rem;
+}
+.nav_flex{
+    display: flex;
+    gap: 3rem;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_list{
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+#link_nav:link,
+.link_nav:visited{
+    text-decoration: none;
+    color: #222;
+    font-weight: bold;
+}
+#link_nav:hover,
+.link_nav:active{
+    color: orangered;
+}
+
+
+
+
+
+
+.hero{
+    background-image: url("../pictures/Purple_Leaf-wallpaper-10956844.jpg");
+    height: 8rem;
+    position: relative;
+}
+
+.hreo_header{
+    position: absolute;
+    top: 20%;
+    left: 0%;
+    transform: translate(50%,-50%);
+    color: #fff;
+}
+
+
+
+
+
+.flex_logo,.logo_img_grid{
+    margin: 0rem 9rem;
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+    position: relative;
+}
+.list_logo{
+    list-style: none;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    color: #fff;
+    margin-top: 1rem;
+}
+.flex_logo::after{
+    content: "";
+    display: block;
+    width: 100%;
+    padding-bottom: 30%;
+    position: absolute;
+    background-color: #111;
+    z-index: -1;
+
+}
+.logo_img_grid{
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+}
+.small_img_lo{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.logo_img_flex{
+ color: #000;   
+}
+#pic{
+    display: flex;
+    gap: 1rem;
+    color: #000;
+}
+#cust_img_logo{
+    border-radius: 50%;
+}
+#one{
+    color: #fff;
+}
+
+
+
+
+
+.call_to_action{
+    margin: 2rem 8rem;
+}
+.flex_call{
+  display: flex;
+  gap: 3rem;
+}
+.imgone,.imgtwo{
+ position: relative;
+}
+.imgone::after,
+.imgtwo::after{
+    content: "";
+    display: block;
+    width: 100%;
+    padding-bottom: 50%;
+    transform: translate(-10%,-90%);
+    position: absolute;
+    background-color: #111;
+    z-index: -1;    
+}
+
+.imgtwo::after{
+    transform: translate(10%,-90%);
+}
+
+.text,.testimonial{
+    margin: 2rem 8rem;
+    margin-top: 4rem;
+}
+.thidtext{
+    padding: 3rem 6rem;
+    background-color: silver;
+}
+.thidtext h3{
+    padding: 1rem 2rem;
+    background-color: #000;
+    color: #fff;
+    display: inline-block;
+}
+
+
+
+
+
+
+
+
+.testimonial{
+color: #000;
+text-align: center;
+}
+#testimo_img{
+    border-radius: 50%;   
+}
+.imges{
+    text-align: center;
+}
+#pic{
+    color: #000;
+    margin-bottom: 2rem;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    display:inline-flex;
+   align-content: center;
+   justify-content: center;
+   color: red;
+}
+.input_name{
+    padding: 0.5rem 4rem;
+    border: 1px solid red;
+}
+.input_commit{
+    padding: 4rem 4rem ;
+    border: 1px solid red;
+
+}
+
+.link_feature{
+    padding: 0.5rem 0.5rem;
+    background-color: #777;
+    color: #fff;
+    /* display: block; */
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+    align-self: flex-start;
+
+}
+
+
+
+
+
+
+.pricing{
+    margin: 2rem 8rem;
+}
+.pricing_flex{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+#link_pricing{
+    text-decoration: none;
+    color: #000;
+    margin-top: 0.4rem;
+}
